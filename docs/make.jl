@@ -6,5 +6,6 @@ makedocs(modules=[Julia_docs_test],
 deploydocs(deps   = Deps.pip("mkdocs", "python-markdown-math"),
           repo = "github.com/nbavafa/Julia_docs_test.git",
           julia = "0.6",
+	  osname = "osx
        )
 
