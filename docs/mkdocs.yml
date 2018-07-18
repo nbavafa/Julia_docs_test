@@ -2,7 +2,7 @@ site_name:           Julia_docs_test
 repo_url:            https://github.com/nbavafa/Julia_docs_test
 site_description:    Description!
 site_author:         Nick
-theme:               readthedocs
+theme:               material
 
 markdown_extensions:
   - codehilite
